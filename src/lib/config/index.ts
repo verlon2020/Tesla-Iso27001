@@ -1,11 +1,11 @@
 import type { Link } from "../types";
 
 export const SITE = {
-  title: "Astro News",
-  description: "A news website built with Astro",
-  author: "Mohammad Rahmani",
+  title: "TESLA Y ISO27001 NUEVAS NOTICIAS",
+  description: "TESLA Y ISO27001 NUEVAS NOTICIAS - Mantente informado con las últimas novedades sobre Tesla y la certificación ISO 27001. Descubre cómo estas innovaciones impactan el mundo de la tecnología y la sostenibilidad.",
+  author: "jHONATHAN ROJAS",
   url: "https://astro-news-six.vercel.app",
-  github: "https://github.com/Mrahmani71/astro-news",
+  github: "https://github.com/verlon2020/Tesla-Iso27001",
   locale: "en-US",
   dir: "ltr",
   charset: "UTF-8",
@@ -16,27 +16,27 @@ export const SITE = {
 export const NAVIGATION_LINKS: Link[] = [
   {
     href: "/categories/technology",
-    text: "Technology",
+    text: "Empleados",
   },
   {
     href: "/categories/programming",
-    text: "Programming",
+    text: "Noticias",
   },
   {
     href: "/categories/lifestyle",
-    text: "Lifestyle",
+    text: "Consejos De Elon Musk",
   },
   {
     href: "/categories/productivity",
-    text: "Productivity",
+    text: "Iso270001 TESLA",
   },
   {
     href: "/categories/health",
-    text: "Health",
+    text: "CR7",
   },
   {
     href: "/categories/finance",
-    text: "Finance",
+    text: "Ultimo Tesla",
   },
 ];
 

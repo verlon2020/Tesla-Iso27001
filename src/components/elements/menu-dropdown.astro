@@ -18,11 +18,13 @@ import { NAVIGATION_LINKS, OTHER_LINKS } from "@/lib/config";
     class="menu dropdown-content z-50 bg-base-100 rounded-box w-56 shadow"
   >
     <li><a href="/" aria-label="Homepage">Home</a></li>
-    <li><a href="/articles" aria-label="Articles Page">Articles</a></li>
+    <li>
+      <a href="/articles" aria-label="Articles Page">Articulos sobre Tesla</a>
+    </li>
 
     <li>
       <details>
-        <summary>Categories</summary>
+        <summary>Categorias</summary>
         <ul>
           {
             NAVIGATION_LINKS.map(({ href, text, target }) => (
@@ -39,7 +41,7 @@ import { NAVIGATION_LINKS, OTHER_LINKS } from "@/lib/config";
 
     <li>
       <details>
-        <summary>Other Pages</summary>
+        <summary>Otras Paginas</summary>
         <ul>
           {
             OTHER_LINKS.map(({ href, text, target }) => (
